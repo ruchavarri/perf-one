@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700');
+/* @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700'); */
 
 html, body {
   margin: 0;
@@ -10,7 +10,7 @@ html, body {
 .w-hero {
   width: 100vw;
   height: 100vh;
-  background: transparent url('./images/hero.jpg') no-repeat;
+  /* background: transparent url('./images/hero.jpg') no-repeat; */
   background-size: cover;
   background-position: center center;
   overflow: hidden;

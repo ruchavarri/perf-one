@@ -36,7 +36,14 @@
 		font-style: italic;
   }
 
-  :root {
+	body {
+    --main-default-font: sans-serif;
+    --main-bold-font: sans-serif;
+    --main-italic-font: sans-serif;
+    --main-bold-italic-font: sans-serif;
+	}
+	
+  body.font-loader {
     --main-default-font: Lato, sans-serif;
     --main-bold-font: LatoBold, sans-serif;
     --main-italic-font: LatoItalic, sans-serif;
@@ -92,6 +99,7 @@
       loadingC,
       loadingD
 		]).then(function () {
+			document.body.classList.add('font-loader');
       console.log('fonts loaded!');
     });
 	})();
